@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.righteous {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .sarala-regular {
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sarala-bold {
+    font-family: "Sarala", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+
+  }
+
+  .cabecalho {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+  }
+
+  .cabecalho-imagem {
+    height: 4.5rem;
+
+  }
+
+  .cabecalho-menu {
+
+    display: flex;
+    gap: 2rem;
+
+  }
+
+  .cabecalho-menu-item{
+
+    font-family: "Sarala", sans-serif;
+    color:#FFF2E7;
+    font-weight: 400;
+    font-size: 1.18rem;
+
+  }
+
+  .conteudo {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 3rem;
+  }
+
+  .conteudo-principal{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  
+  .conteudo-principal-escrito{
+
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+  }
+
+  .conteudo-principal-escrito-titulo{
+
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    color: #FFF2E7;
+  }
+
+  .conteudo-principal-escrito-subtitulo{
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    color: #ECD6C4;
+    ;
+    font-size: 1.5rem;
+  }
+
+  .conteudo-principal-escrito-botao{
+
+    width: 11.56rem;
+    border-radius: 1.25rem;
+    height: 4.18rem;
+    background: #ECD6C4;
+    font-size: 1.5rem;
+    color:#2F2325;
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    box-shadow: 4px 5px 4px 0px #00000040;
+
+  }
+
+  .conteudo-principal-imagem{
+
+    height: 26.87rem;
+
+  }
+
+  .conteudo-secundario{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 2rem;
+    margin-top: 3rem;
+
+  }
+
+  .conteudo-secundario-titulo{
+
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    color: #FFF2E7;
+    font-size: 1.5rem;
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    margin-bottom: 1rem;
+  }
+
+  .conteudo-secundario-paragrafo{
+
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    color: #ECD6C4;
+    font-size: 1.12rem;
+
+  }
+
+  .rodape {
+
+    padding: 2rem;
+    border-top: 0.4px solid #FFF2E7;
+  }
+
+  .rodape-imagem{
+
+    height: 3rem;
+    display: block;
+    margin: 0 auto;
+  }
